@@ -6,7 +6,19 @@ then answers the core commercial questions a retailer cares about: revenue, prof
 product mix, geography, trend over time, and most valuable customers.
 
 **Author:** Bekir Onal
-**Tools:** PostgreSQL 18 · DBeaver · SQL
+**Tools:** PostgreSQL 18 · DBeaver · SQL · Tableau Public
+
+---
+
+## Interactive dashboard (Tableau Public)
+
+The SQL findings below are also presented as an interactive dashboard — the analysis is done in **SQL/PostgreSQL**, the visualisation in **Tableau**.
+
+**▶ View the live interactive dashboard:** [UK Retail Sales — Performance Dashboard on Tableau Public](https://public.tableau.com/app/profile/bekir.onal/viz/UKRetailSalesPerformanceDashboard/UKRetailSalesPerformanceDashboard)
+
+![UK Retail Sales — Performance Dashboard](dashboard.png)
+
+The dashboard covers **sales & profit by category**, **sales & profit by region** (bars coloured by profit, so the most profitable regions stand out), and the **36-month revenue trend** (2023–2025).
 
 ---
 
@@ -71,4 +83,4 @@ Led by **Oliver Jones (£161K across 110 orders)**. Each of the top 10 is worth
 
 ---
 
-*Analysis in `uk_retail_sales_analysis.sql`. Visual dashboards (Tableau / Power BI) accompany this repo.*
+*Analysis in `uk_retail_sales_analysis.sql`. Interactive [Tableau Public dashboard](https://public.tableau.com/app/profile/bekir.onal/viz/UKRetailSalesPerformanceDashboard/UKRetailSalesPerformanceDashboard) accompanies this repo.*
